@@ -8,7 +8,7 @@ def insere_pessoas():
 # Função para consultar todas as pessoas no banco de dados
 def consulta_pessoas():
     pessoa = Pessoas.query.all()
-    pessoa = Pessoas.query.filter_by(nome='Jorge').first()
+    pessoa = Pessoas.query.filter_by(nome='José').first()
     print(pessoa.nome, pessoa.idade)
     #print(pessoa.nome)
 
